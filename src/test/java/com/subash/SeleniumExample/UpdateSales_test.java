@@ -34,7 +34,7 @@ class UpdateSales_test {
 	    driver.findElement(By.name("L-btn")).click();
 	    Thread.sleep(4000);
 	    driver.findElement(By.linkText("VIEW SALES")).click();
-		driver.get("http://localhost:3000/editsales/2");
+		driver.get("http://localhost:3000/editsales/24");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("saledate")).sendKeys("12-12-12");
 		driver.findElement(By.id("quantitysold")).sendKeys("2");
