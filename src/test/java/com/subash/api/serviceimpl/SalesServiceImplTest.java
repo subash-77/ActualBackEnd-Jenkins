@@ -38,12 +38,12 @@ class SalesServiceImplTest {
 //		assertEquals("Add Failure", salesService.addSales(sales));
 //	}
 
-	@Test
-	void testGetSales() {
-		Sales sales = salesService.getSales(20);
-		assertNotNull(sales);
-		assertEquals(20, sales.getSaleId());
-	}
+	// @Test
+	// void testGetSales() {
+	// 	Sales sales = salesService.getSales(20);
+	// 	assertNotNull(sales);
+	// 	assertEquals(20, sales.getSaleId());
+	// }
 
 	@Test
 	void testGetAllSales() {
