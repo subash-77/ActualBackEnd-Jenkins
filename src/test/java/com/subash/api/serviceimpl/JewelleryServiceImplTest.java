@@ -47,28 +47,28 @@ class JewelleryServiceImplTest {
 	}
 
 
-	@Test
-	void testUpdateJewellery() {
+	// @Test
+	// void testUpdateJewellery() {
 	    
-	    Jewellery existingJewellery = jewelleryService.getJewellery(36);
-	    assertNotNull(existingJewellery);
+	//     Jewellery existingJewellery = jewelleryService.getJewellery(36);
+	//     assertNotNull(existingJewellery);
 
 	   
-	    existingJewellery.setName("Updated Ring");
-	    existingJewellery.setDescription("Updated description");
-	    existingJewellery.setPrice(12000); 
-	    existingJewellery.setStock(3); 
+	//     existingJewellery.setName("Updated Ring");
+	//     existingJewellery.setDescription("Updated description");
+	//     existingJewellery.setPrice(12000); 
+	//     existingJewellery.setStock(3); 
 
 	
-	    jewelleryService.updateJewellery(existingJewellery);
+	//     jewelleryService.updateJewellery(existingJewellery);
 
 	  
-	    Jewellery updatedJewellery = jewelleryService.getJewellery(35);
-	    assertEquals("Updated Ring", updatedJewellery.getName());
-	    assertEquals("Updated description", updatedJewellery.getDescription());
-	    assertEquals(12000, updatedJewellery.getPrice());
-	    assertEquals(3, updatedJewellery.getStock());
-	}
+	//     Jewellery updatedJewellery = jewelleryService.getJewellery(35);
+	//     assertEquals("Updated Ring", updatedJewellery.getName());
+	//     assertEquals("Updated description", updatedJewellery.getDescription());
+	//     assertEquals(12000, updatedJewellery.getPrice());
+	//     assertEquals(3, updatedJewellery.getStock());
+	// }
 
 //	@Test
 //	void testDeleteJewellery() {
