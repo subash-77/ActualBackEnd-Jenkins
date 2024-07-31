@@ -32,7 +32,7 @@ class UpdateJewelery_Test {
 	    driver.findElement(By.name("L-btn")).click();
 	    Thread.sleep(4000);
 	    driver.findElement(By.linkText("VIEW JEWELRY")).click();
-		driver.get("http://localhost:3000/editjewelry/6");
+		driver.get("http://localhost:3000/editjewelry/29");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("name")).sendKeys("Gold Ring");
 		driver.findElement(By.id("description")).sendKeys("Comfortable");
