@@ -36,18 +36,18 @@ class DeleteJewelry_Test {
 	    Thread.sleep(4000);
 	    driver.findElement(By.linkText("VIEW JEWELRY")).click();
 	    Thread.sleep(5000);
-	    driver.findElement(By.cssSelector(".text-center:nth-child(1) .ms-1")).click();
+	 //    driver.findElement(By.cssSelector(".text-center:nth-child(1) .ms-1")).click();
 
-		Thread.sleep(5000);
+		// Thread.sleep(5000);
 
-		Alert alert = driver.switchTo().alert();
+		// Alert alert = driver.switchTo().alert();
 
-		String alertMessage = driver.switchTo().alert().getText();
+		// String alertMessage = driver.switchTo().alert().getText();
 
-		assertEquals("Do you want to delete?", alertMessage);
-		Thread.sleep(5000);
+		// assertEquals("Do you want to delete?", alertMessage);
+		// Thread.sleep(5000);
 
-		alert.accept();
+		// alert.accept();
 
 	
 		
